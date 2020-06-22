@@ -21,7 +21,7 @@ export const AddTransaction = () => {
         <div>
             <h3 className="bgCenter">Add New Transaction</h3>
             <form onSubmit={onSubmit}>
-                <div className="form-control" className="bgCenter">
+                <div className="form-control bgCenter">
                     <label htmlFor="description">
                         Description
                     </label>
@@ -32,7 +32,7 @@ export const AddTransaction = () => {
                     placeholder="Detail of Transaction"/>
                 </div>
 
-                <div className="form-control" className="bgCenter">
+                <div className="form-control bgCenter">
                     <label htmlFor="transactionamount">
                         Transaction Amount
                     </label>
