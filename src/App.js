@@ -7,7 +7,7 @@ import {AccountSummary} from './components/accountsummary'
 import {TransactionHistory} from './components/transactionhistory'
 import {AddTransaction} from './components/addtransaction'
 
-import {GlobalProvider, GlobalContext} from './context/GlobalState'
+import {GlobalProvider} from './context/GlobalState'
 
 function App() {
   return (  
